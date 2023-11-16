@@ -16,7 +16,7 @@ class AutoClicker(Thread):
                 sleep(delay * + delay)
 
 def keypress(key):
-    if key == KeyCode(char="ù"):
+    if key == KeyCode(char="keys to activate/deactivate autoclick"):
         AutoClicker.clicking = not AutoClicker.clicking
 
 AutoClicker().start()
